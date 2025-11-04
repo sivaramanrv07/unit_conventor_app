@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -110,6 +112,7 @@ class _ConverterHomePageState extends State<ConverterHomePage> {
                 .gradient
                 .colors
                 .first
+                // ignore: deprecated_member_use
                 .withOpacity(0.4),
             blurRadius: 20,
             offset: const Offset(0, 6),
@@ -149,6 +152,7 @@ class _ConverterHomePageState extends State<ConverterHomePage> {
     return Container(
       margin: const EdgeInsets.all(12),
       decoration: BoxDecoration(
+        // ignore: deprecated_member_use
         color: Theme.of(context).colorScheme.surface.withOpacity(0.9),
         borderRadius: BorderRadius.circular(26),
         boxShadow: [
